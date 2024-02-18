@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>INM420 API Fetch assigment dictionary</title>
+    <!-- fonts -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Honk&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- main header -->
+    <h1>Dictionary search</h1>
+    <!-- sub header -->
+    <h2>Type any word then hit search to begin !</h2>
+    <!-- search box -->
+    <div class="search-box">
+      <!-- search -->
+      <input type="text" id="searchTerm" placeholder="Enter a word...">
+      <!-- search button -->
+      <button onclick="fetchDefinition()">Search🔍</button>
+    </div>
+    <!-- definiton display -->
+    <div id="definition"></div>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>

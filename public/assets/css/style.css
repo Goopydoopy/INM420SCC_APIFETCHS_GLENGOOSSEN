@@ -1,0 +1,72 @@
+body {
+	height: 90.7vh;
+	margin: 0;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+	/*background beach vibes...*/
+	background-image: linear-gradient(rgb(255, 252, 115), rgb(250, 0, 192));
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+h1 {
+	/*header style, werid beach vibes*/
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 90px;
+	/*Pulled from google fonts*/
+	font-family: "Honk", system-ui;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+		"MORF" 15,
+		"SHLN" 50;
+}
+
+h2 {
+	/*instruction text color*/
+	color: azure;
+	font-family: "Anta", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+/*search bar...*/
+.search-box {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/*search text...*/
+#searchTerm {
+	font-size: 20px;
+	padding: 10px;
+	flex-grow: 1;
+	margin-right: 10px;
+}
+
+/*search button...*/
+button {
+	font-size: 20px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+/*normal display of defintion*/
+#definition {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
